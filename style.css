@@ -1,0 +1,674 @@
+/*========
+font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+==========*/
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*==========================================================
+======================= Top section ========================
+==========================================================*/
+#top {
+    border-bottom: 1px solid #e2e2e2;
+    font-family: Helvetica;
+    font-weight: normal;
+    background-color: #f0f2f4;
+}
+#top p {
+    margin: 0;padding: 0;
+}
+.top-inner {
+    float: right;
+}
+.part-1 {
+    padding: 10px 0;
+}
+.part-1 i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.part-1 p {
+    margin-right: 20px!important;
+}
+.part-2 {
+    padding: 10px 0;
+    border-left: 1px solid #e2e2e2;
+    padding-left: 20px;
+}
+.fa-facebook-square {
+    color: #1287bf;
+    font-size: 25px;
+}
+.mail-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+.fb-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*==========================================================
+======================= Top section ========================
+==========================================================*/
+
+
+
+
+/*==========================================================
+======================= header section ========================
+==========================================================*/
+header {
+    font-family: Helvetica;
+    padding: 40px 0;
+}
+.navbar {
+    padding: 0;
+}
+.nav-link {
+    color: #424242;
+    font-weight: bold;
+}
+.nav-home {
+    color: #de2b24;
+}
+.nav-link span i {
+    font-size: 5px;
+    position: relative;
+    bottom: 3px;
+    padding-right: 15px;
+    color: #424242!important;
+}
+
+.nav-link:hover {
+    color: #de2b24;
+    transition-duration: .8s;
+}
+.home-btn {
+    background-color: #de2b24;
+    margin-left: 15px;
+    color: #fff;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+.home-btn:hover {
+    background-color: #b11f19;
+    transition-duration: .8s;
+}
+/*==========================================================
+======================= Top section ========================
+==========================================================*/
+
+
+
+
+/*==========================================================
+======================= home section ========================
+==========================================================*/
+#home {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    text-align: center;
+    font-family: Helvetica;
+    color: #fff;
+}
+#home h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+#home p {
+    font-size: 30px;
+    font-weight: lighter;
+}
+.yellow-btn {
+    background-color: #f8cd53;
+    font-size: 25px;
+    padding: 8px 25px;
+    margin-top: 25px;
+}
+/*==========================================================
+======================= home section ========================
+==========================================================*/
+
+
+
+
+
+/*==========================================================
+======================= about section ========================
+==========================================================*/
+#about {
+    padding: 100px 0;
+    font-family: Helvetica;
+}
+.about-heading {
+    line-height: 25px;
+}
+.common-heading h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: #424242;
+}
+.common-heading p {
+    font-size: 25px;
+    font-weight: normal;
+    margin: 0;
+    color: #686868;
+}
+.underline {
+    margin: 0 auto;
+    width: 50px;
+    height: 5px;
+    background-color: #424242;
+    margin-top: 15px;
+}
+.about-inner {
+    margin-top: 50px;
+}
+.about-inner img {
+    margin-bottom: 30px;
+}
+.about-inner h4 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #424242;
+}
+.about-inner p {
+    font-size: 15px;
+    font-weight: normal;
+    color: #686868;
+}
+/*==========================================================
+======================= about section ========================
+==========================================================*/
+
+
+
+
+
+/*==========================================================
+======================= approch section ========================
+==========================================================*/
+#approch {
+    background-color: #f3f3f3;
+    padding: 100px 0;
+}
+
+.approch-inner {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+    bottom: -45px;
+    position: relative;
+}
+.approch-inner h5 {
+    font-weight: bold;
+    color: #424242;
+}
+.approch-inner p {
+    color: #686868;
+}
+.approch-2nd {
+    margin-left: 40px;
+    margin-right: 85px;
+}
+#row-1 {
+    margin-top: 50px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1), 0 0px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.date {
+    position: absolute;
+    top: -170px;
+    left: 285px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    line-height: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.date-2nd {
+    right: 330px;
+    position: absolute;
+    top: -170px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    line-height: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.date h1 {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0;
+    position: relative;
+    top: -5px;
+}
+.date p {
+    position: relative;
+    top: -5px;
+}
+
+.date-2nd h1 {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0;
+    position: relative;
+    top: -5px;
+}
+.date-2nd p {
+    position: relative;
+    top: -5px;
+}
+/*==========================================================
+======================= approch section ========================
+==========================================================*/
+
+
+
+/*==========================================================
+======================= work section ========================
+==========================================================*/
+#work {
+    background-color: #de2b24;
+    padding: 100px;
+}
+.heading-white h3 {
+    color: #fff;
+}
+#work p {
+    color: #fff;
+}
+.underline-white {
+    background-color: #fff;
+}
+
+
+#work-col {
+    background-color: #f35e59;
+    padding: 60px 0
+}
+#work-col h3 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+#work-col p {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+#work-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.work-gap {
+    margin-top: 50px;
+}
+
+.fa-paper-plane {
+    font-size: 35px;
+    color: #f9afac;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/*==========================================================
+======================= work section ========================
+==========================================================*/
+
+
+
+/*==========================================================
+======================= contact section ========================
+==========================================================*/
+#contact {
+    padding: 100px 0;
+    background-color: #1287bf;
+}
+#contact .form-control {
+    height: calc(3.25rem + 2px);
+}
+
+#contact input::placeholder {
+    color: #cacaca;
+}
+.contact-box {
+    background-color: #fff;
+    margin-top: 70px;
+    border-radius: 5px;
+    padding: 60px 50px;
+}
+
+.btn-contact {
+    color: #fff;
+    background-color: #de2b24;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+
+.fa-caret-up {
+    color: #fff;
+    font-size: 150px;
+    position: relative;
+    top: 155px;
+    left: 508px;
+}
+.circle-down {
+    left: 794px;
+    position: relative;
+    top: 115px;
+    z-index: 1;
+}
+/*==========================================================
+======================= contact section ========================
+==========================================================*/
+
+
+
+
+
+
+/*==========================================================
+======================= getInTouch section ========================
+==========================================================*/
+#getInTouch {
+    padding: 70px;
+    background-color: #2a2a2a;
+}
+#getInTouch h4 {
+    font-size: 29px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Helvetica";
+    font-weight: bold;
+}
+.social-link i {
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #515151;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    padding-top: 5px;
+    margin: 8px 15px 10px 10px;
+}
+.social-link i:hover {
+    border-color: red;
+}
+.social-link .active {
+    border-color: red;
+}
+#getInTouch p {
+    color: #cecece;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Open Sans";
+    margin-top: 10px;
+}
+#getInTouch .form-control {
+    width: 70%;
+    height: calc(3.25rem + 2px);
+    margin: 0 auto;
+    background-color: #515151;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    border-radius: 0;
+}
+#getInTouch input::placeholder {
+    color: #b6b6b6;
+}
+
+.subscribe-btn {
+    border: 2px solid #515151;
+    padding: 8px 40px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.subscribe-btn:hover {
+    border-color: red;
+    color: #b6b6b6;
+}
+/*==========================================================
+======================= getInTouch section ========================
+==========================================================*/
+
+
+
+
+/*==========================================================
+======================= footer section ========================
+==========================================================*/
+footer {
+    background-color: #515151;
+    padding: 20px 0;
+}
+footer p {
+    margin: 0;
+    color: #fff;
+}
+/*==========================================================
+======================= footer section ========================
+==========================================================*/
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991.8px) {
+    .work-gap-2 {
+        margin-top: 50px;
+    }
+
+    #app-img-1 {
+        width: 100%;
+    }
+    #app-img-2 {
+        width: 100%;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1200px) {
+    .circle-down {
+        left: 650px;
+    }
+    .fa-caret-up {
+        top: 160px;
+        left: 425px;
+    }
+
+    .date {
+        left: 265px;
+    }
+    .date-2nd {
+        right: 272px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 991.8px) {
+    .circle-down {
+        left: 443px;
+        top: 162px;
+    }
+    .fa-caret-up {
+        top: 205px;
+        left: 299px;
+    }
+
+    .approch-inner {
+        margin: 30px 10px 70px 10px;
+    }
+    .approch-2nd {
+        margin-bottom: 100px;
+        text-align: justify!important;
+    }
+
+    .date {
+        top: -273px;
+        left: 295px;
+    }
+
+    .date-2nd {
+        top: -550px;
+        right: 327px;
+    }
+}
+
+@media (min-width:472px) and (max-width: 767.8px) {
+
+    .circle-down {
+        left: 390px;
+        top: 162px;
+    }
+    .fa-caret-up {
+        top: 205px;
+        left: 215px;
+    }
+
+    .approch-inner {
+        margin: 30px 10px 70px 10px;
+    }
+    .approch-2nd {
+        margin-bottom: 100px;
+        text-align: justify!important;
+    }
+
+    .date {
+        top: -298px;
+        left: 220px;
+    }
+
+    .date-2nd {
+        top: -431px;
+        right: 235px;
+    }
+
+    #getInTouch .form-control {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .circle-down {
+        top: 212px;
+        left: 260px;
+    }
+    .fa-caret-up {
+        left: 154px;
+        top: 265px;
+    }
+
+    .approch-inner {
+        margin: 30px 10px 70px 10px;
+    }
+    .approch-2nd {
+        margin-bottom: 100px;
+        text-align: justify!important;
+    }
+
+    .date {
+        top: -320px;
+        left: 170px;
+    }
+
+    .date-2nd {
+        top: -345px;
+        right: 165px;
+    }
+}
+
+@media (max-width:375px) {
+    .circle-down {
+        top: 208px;
+        left: 210px;
+    }
+    .fa-caret-up {
+        left: 133px;
+        top: 265px;
+    }
+
+    .approch-inner {
+        margin: 30px 10px 70px 10px;
+    }
+    .approch-2nd {
+        margin-bottom: 100px;
+        text-align: justify!important;
+    }
+
+    .date {
+        top: -323px;
+        left: 128px;
+    }
+
+    .date-2nd {
+        top: -310px;
+        right: 144px;
+    }
+
+    #getInTouch .form-control {
+        width: 100%;
+    }
+}
+
+@media (max-width:320px) {
+    .circle-down {
+        top: 210px;
+        left: 153px;
+    }
+    .fa-caret-up {
+        left: 102px;
+        top: 265px;
+    }
+
+    .approch-inner {
+        margin: 30px 10px 70px 10px;
+    }
+    .approch-2nd {
+        margin-bottom: 100px;
+        text-align: justify!important;
+    }
+
+    .date {
+        top: -345px;
+        left: 100px;
+    }
+
+    .date-2nd {
+        top: -273px;
+        right: 120px;
+    }
+
+    #getInTouch .form-control {
+        width: 100%;
+    }
+}
